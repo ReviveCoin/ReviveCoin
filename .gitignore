@@ -1,0 +1,34 @@
+src/*.exe
+src/revivecoin
+src/revivecoind
+src/test_revivecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.revivecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+revivecoin-qt
+ReviveCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+revivecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
